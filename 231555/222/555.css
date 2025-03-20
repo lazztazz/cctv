@@ -1,0 +1,371 @@
+/* 231.css */
+body {
+    margin: 0;
+    background-color: rgba(87, 82, 120, 0.75);
+}
+
+.container {
+    margin: 0px 0px;
+}
+.nav {
+    background-color: rgba(71, 75, 79, 1);
+}
+.header {
+    background-color: rgba(71, 75, 79, 1);
+    height: auto;
+}
+.footer {
+    background-color: rgba(71, 75, 79, 1);
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.header-line {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    margin-left: 470px;
+}
+.left {
+    background-color: rgba(34, 38, 41, 1);
+    width: 253px;
+    height: 58px;
+    color: white;
+    text-align: center;
+    line-height: 58px;
+    font-size: 25px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.left_content {
+    background-color: rgba(71, 75, 79, 1);
+    width: 233px;
+    height: 510px;
+    margin-bottom: 70px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.left_all {
+    float: left;
+    margin-top: 50px;
+}
+.right {
+    background-color: rgba(34, 38, 41, 1);
+    width: 253px;
+    height: 58px;
+    color: white;
+    text-align: center;
+    line-height: 58px;
+    font-size: 25px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.right_content {
+    background-color: rgba(71, 75, 79, 1);
+    width: 233px;
+    height: 510px;
+    margin-bottom: 70px;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.right_all {
+    float: right;
+    margin-top: 50px;
+}
+.footer-line {}
+.nav-item-f {
+    margin-left: 30px;
+}
+.nav-item-footer {
+    margin-right: 50px;
+    float: right;
+    width: 90px;
+    height: 90px;
+    content: url(photo/vk.png);
+    margin-top: 5px;
+}
+.poisk_all {
+    margin-top: 45px;
+}
+.poisk_img {
+    margin-left: 800px;
+    width: 50px;
+    height: 45px;
+    background-color: rgba(48, 48, 85, 1);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.poisk {
+    background-color: rgba(48, 48, 85, 1);
+    color: white;
+    width: 170px;
+    height: 35px;
+    margin-left: 850px;
+    padding-left: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: -45px;
+}
+.films {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.film-item {
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 0 0 45%; /* Это позволит разместить по 2 элемента в строке */
+    box-sizing: border-box;
+}
+.film-item img {
+    width: 40%; /* Уменьшаем ширину до трети от оригинального размера */
+    height: auto; /* Сохраняем пропорции изображения */
+    object-fit: cover;
+}
+.film-name {
+    color: white;
+    font-size: 22px; /* Увеличим шрифт */
+    margin-top: 10px;
+}
+.film_n1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 450px;
+    content: url(photo/film1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.film_n2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 450px;
+    background-image: url(photo/film2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.film_n3 {
+    width: 300px;
+    height: 300px;
+    margin-left: 1100px;
+    content: url(photo/film3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -302px;
+}
+.film_n4 {
+    width: 300px;
+    height: 300px;
+    margin-left: 1100px;
+    content: url(photo/film4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -613px;
+}
+/*страница 1 end */
+.film_n1_info {
+    margin-left: 475px;
+    background-color: rgba(71, 75, 79, 1);
+    width: 900px;
+    height: 610px;
+    margin-top: 50px;
+}
+.film_img {
+    margin-left: 50px;
+    width: 180px;
+    height: 180px;
+    content: url(photo/image\ 1.png);
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.film_info {
+    padding-left: 30px;
+    margin-left: 400px;
+    background-color: rgba(34, 38, 41, 1);
+    width: 400px;
+    margin-top: -190px;
+    font-size: 18px;
+    color: white;
+    height: 200px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.knopki {}
+.knopki_nav_1 {
+    margin-top: 50px;
+    content: url(photo/Group\ 33.png);
+    width: 230px;
+    height: 50px;
+    margin-left: 50px;
+}
+.knopki_nav_2 {
+    margin-top: -50px;
+    content: url(photo/Heart.png);
+    width: 50px;
+    height: 50px;
+    margin-left: 430px;
+}
+.knopki_nav_3 {
+    margin-top: -50px;
+    content: url(photo/Group\ 34.png);
+    width: 150px;
+    height: 50px;
+    margin-left: 650px;
+}
+.text {
+    background-color: rgba(34, 38, 41, 1);
+    color: white;
+    width: 800px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 200px;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.podpiska_v {
+    margin-left: 200px;
+    padding-right: 150px;
+}
+.podpiska {
+    margin-top: 80px;
+}
+.card {
+    padding-right: 140px;
+}
+.bank {
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(217, 217, 217, 1);
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.nick {
+    font-size: 28px;
+    margin-left: 700px;
+    margin-top: -130px;
+    color: white;
+}
+.text_nedavno {
+    color: white;
+    margin-top: 150px;
+    margin-left: 475px;
+    font-size: 20px;
+}
+.nedavno {}
+.nedavno_films_1 {
+    content: url(photo/film1.png);
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 470px;
+}
+.nedavno_films_2 {
+    content: url(photo/film2.png);
+    width: 150px;
+    height: 150px;
+    margin-left: 720px;
+    margin-top: -150px;
+}
+.nedavno_films_3 {
+    content: url(photo/film3.png);
+    width: 150px;
+    height: 150px;
+    margin-left: 970px;
+    margin-top: -150px;
+}
+.nedavno_films_4 {
+    content: url(photo/film4.png);
+    width: 150px;
+    height: 150px;
+    margin-left: 1220px;
+    margin-top: -150px;
+}
+.categorii_1 {
+    content: url(photo/Group\ 38.png);
+    width: 100px;
+    height: 110px;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+.categorii_2 {
+    content: url(photo/Group\ 39.png);
+    width: 100px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 620px;
+}
+.categorii_3 {
+    content: url(photo/Group\ 40.png);
+    width: 100px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 770px;
+}
+.categorii_4 {
+    content: url(photo/Group\ 41.png);
+    width: 100px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 920px;
+}
+.categorii_5 {
+    content: url(photo/Group\ 42.png);
+    width: 100px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 1070px;
+}
+.categorii_6 {
+    content: url(photo/Group\ 43.png);
+    width: 100px;
+    height: 110px;
+    margin-top: -110px;
+    margin-left: 1220px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: rgba(87, 82, 120, 0.75);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #6c3483;
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(87, 82, 120, 0.75);
+    color: rgba(48, 48, 85, 1);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box; /* чтобы паддинг не добавлял ширину */
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(87, 82, 120, 0.75);
+    color: rgba(48, 48, 85, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6c3483;
+    color: #fff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
